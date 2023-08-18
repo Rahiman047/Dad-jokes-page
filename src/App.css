@@ -1,27 +1,59 @@
-#root {
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@media only screen and (min-width: 768px) {
+  #root {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .button {
+    border: 2px;
+  }
+
+  .button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .heading {
+    font-size: 72px;
+  }
+
+  .data-para {
+    font-size: 69px;
+    color: #7df9ff;
+  }
+
+  .data-para:hover {
+    color: white;
+  }
 }
 
-.button {
-  border: 2px;
-}
+@media only screen and (max-width: 768px) {
+  #root {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
 
-.button:hover {
-  background-color: white;
-  color: black;
-}
+  .button {
+    border: 2px;
+  }
 
-.heading {
-  font-size: 72px;
-}
+  .button:hover {
+    background-color: white;
+    color: black;
+  }
 
-.data-para {
-  font-size: 69px;
-  color: #7df9ff;
-}
+  .heading {
+    font-size: 56px;
+  }
 
-.data-para:hover {
-  color: white;
+  .data-para {
+    font-size: 33px;
+    color: #7df9ff;
+  }
+
+  .data-para:hover {
+    color: white;
+  }
 }
