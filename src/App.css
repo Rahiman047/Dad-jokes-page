@@ -20,3 +20,7 @@
 .data-para {
   font-size: 69px;
 }
+
+.data-para:hover {
+  color: red;
+}

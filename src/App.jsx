@@ -40,11 +40,12 @@ function App() {
 
   const buttonClicked = () => {
     let randomNumber = Math.random() * 10;
+    const ranNum = parseInt(randomNumber);
     const dataLength = data.length;
-    setCount(parseInt(randomNumber));
-    // if (RandomNumber < dataLength) {
-    //   return setCount[Math.ceil(count + RandomNumber)];
-    // }
+    if (ranNum < dataLength / 2) {
+      setCount(ranNum);
+    }
+    setCount(ranNum * 2);
   };
 
   return (
