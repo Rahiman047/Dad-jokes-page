@@ -19,8 +19,9 @@
 
 .data-para {
   font-size: 69px;
+  color: #7df9ff;
 }
 
 .data-para:hover {
-  color: red;
+  color: white;
 }
